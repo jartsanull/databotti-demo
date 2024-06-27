@@ -10,10 +10,10 @@ def data_fetch():
     data = [{"id": 1, "name": "Toni"}]
     return data
 
-data = [{"id": 1, "name": "Toni"}]
+data = [{"id": 1, "name": "Toni"}, {"id": 2, "name": "Al"}]
 
 def data_clean(data):
-    data.pop(0)
+    data.pop(1)
     return data
 
 clean = data_clean(data)
