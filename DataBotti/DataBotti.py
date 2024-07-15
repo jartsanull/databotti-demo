@@ -19,7 +19,7 @@ def data_clean(data):
 clean = data
 
 def data_analyse(clean):
-   cleaned = ", ".join(clean for item in clean)
+   #cleaned = ", ".join(clean for item in clean)
    print(f"Result: ${cleaned}")
 
 
