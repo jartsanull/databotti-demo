@@ -16,7 +16,7 @@ def data_clean(data):
     data.pop(1)
     return data
 
-clean = data_clean(data)
+clean = data
 
 def data_analyse(clean):
     clean.join()
