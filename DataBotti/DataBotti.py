@@ -24,5 +24,5 @@ def data_analyse(clean):
     return ", ".join(f'id: {item["id"]}, name: {item["name"]}' for item in data)
 
 
-
+data_clean()
 print(data_analyse(clean))
