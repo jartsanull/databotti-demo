@@ -10,7 +10,7 @@ def data_fetch():
     data = [{"id": 1, "name": "Toni"}]
     return data
 
-data = [{"id": 1, "name": "Toni"}, {"id": 2, "name": "Al"}]
+data = [{"id": 1, "name": "Toni"}, {"id": 2, "name": "Al"}] #< - temporary stuff for testing
 
 def data_clean(data):
     data.pop(1)
@@ -21,7 +21,7 @@ clean = data
 def data_analyse(clean):
    #cleaned = ", ".join(clean for item in clean)
    #print(f"Result: ${cleaned}")
-    return ", ".join(f'id: {item["id"]}, name: {item["name"]}' for item in data)
+    return ", ".join(f'id: {item["id"]}, name: {item["name"]}' for item in data) #< - this one is temporary
 
 
 data_clean(data)
