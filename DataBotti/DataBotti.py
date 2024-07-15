@@ -19,8 +19,8 @@ def data_clean(data):
 clean = data
 
 def data_analyse(clean):
-    " ".join(clean)
-    print(f"Result: ${clean}")
+   cleaned = ", ".join(clean for item in clean)
+   print(f"Result: ${cleaned}")
 
 
-print(data_analyse(clean))
+data_analyse(clean)
