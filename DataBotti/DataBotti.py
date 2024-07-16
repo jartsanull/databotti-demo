@@ -23,6 +23,8 @@ def data_analyse(clean):
    #print(f"Result: ${cleaned}")
     return ", ".join(f'id: {item["id"]}, name: {item["name"]}' for item in clean) #< - this one is temporary
 
+def data_result(clean):
+    
 
 data_clean(data)
 print(data_analyse(clean))
