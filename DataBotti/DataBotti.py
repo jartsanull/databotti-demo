@@ -21,10 +21,10 @@ clean = data
 def data_analyse(clean):
    #cleaned = ", ".join(clean for item in clean)
    #print(f"Result: ${cleaned}")
-    return ", ".join(f'id: {item["id"]}, name: {item["name"]}' for item in clean) #< - this one is temporary
+    result = ", ".join(f'id: {item["id"]}, name: {item["name"]}' for item in clean) #< - this one is temporary
 
-def data_result(clean):
-    
+def data_result(result):
+    return result
 
 data_clean(data)
 print(data_analyse(clean))
