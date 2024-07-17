@@ -30,4 +30,4 @@ def data_result(result):
 
 data_clean(data)
 #print(data_analyse(clean))
-print(data_result(result))
+#print(data_result(result))
