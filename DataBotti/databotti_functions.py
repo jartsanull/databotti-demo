@@ -1,15 +1,21 @@
+
+
+
+
 def data_fetch():
     global data
-    data = [{"id": 1, "name": "Toni"}]
+    data = [{"id": 1, "name": "Toni"}]     #<--- the data works temporarily as a piece of sample
     return data
 
 data = [{"id": 1, "name": "Toni"}, {"id": 2, "name": "Al"}] #< - temporary stuff for testing
+
 
 def data_clean(data):
     data.pop(1)
     return data
 
 clean = data
+
 
 def data_analyse(clean):
    #cleaned = ", ".join(clean for item in clean)
