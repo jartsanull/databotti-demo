@@ -7,7 +7,7 @@ from sqlalchemy import create_engine
 from databotti_functions.py import *
 
 def main():
-    databotti_functiona.data_clean(data)
+    databotti_functions.data_clean(data)
     #print(data_analyse(clean))
     #print(data_result(result))
 
