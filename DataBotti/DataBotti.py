@@ -6,9 +6,10 @@ from sqlalchemy import create_engine
 
 from databotti_functions.py import *
 
-data_clean(data)
-#print(data_analyse(clean))
-#print(data_result(result))
+def main():
+    databotti_functiona.data_clean(data)
+    #print(data_analyse(clean))
+    #print(data_result(result))
 
 if __name__ == "__main__":
     main()
