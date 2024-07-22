@@ -8,8 +8,8 @@ from databotti_functions.py import *
 
 def main():
     databotti_functions.data_clean(data)
-    #print(data_analyse(clean))
-    #print(data_result(result))
+    #databotti_functions.data_analyse(clean)
+    #databotti_functions.data_result(result)
 
 if __name__ == "__main__":
     main()
