@@ -9,3 +9,6 @@ from databt_functions.py import *
 data_clean(data)
 #print(data_analyse(clean))
 #print(data_result(result))
+
+if __name__ == "__main__":
+    main()
