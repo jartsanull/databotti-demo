@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from sqlalchemy import create_engine
 
+from databt_functions import *
 
 data_clean(data)
 #print(data_analyse(clean))
